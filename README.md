@@ -101,4 +101,28 @@ If you encounter any bugs or have any questions, please open an issue on the rep
 
 After launching the program, you can enter your network range (e.g., `192.168.1.0/24`), and the program will scan all devices connected to that range. Here's a simple output:
 
+Scanning 192.168.1.0/24... Devices found:
+
+192.168.1.1 - Router
+
+192.168.1.2 - Laptop
+
+192.168.1.3 - Smart TV
+
+
+
+Once you mark a device as trusted, it will be saved and appear in the **trusted devices** list.
+
+## Screenshots
+
+![Network Scanner UI](screenshot1.png)
+
+## Acknowledgements
+
+- This project uses **nmap** for network scanning and **SQLite** for database management.
+- Thanks to the open-source community for providing tools and resources that made this project possible!
+
+---
+
+**Note:** You can also add a section for **Contributing**, **Troubleshooting**, or **FAQ** if needed.
 
